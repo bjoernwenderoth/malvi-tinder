@@ -1,0 +1,815 @@
+{
+  "trip": {
+    "base": "Tivoli Apartment 22, Bad Reichenhall",
+    "dates": {
+      "from": "2026-10-08",
+      "to": "2026-10-11"
+    },
+    "travelers": 2,
+    "dog": {
+      "name": "Malvi",
+      "size": "klein bis klein-mittelgroß",
+      "notes": "Kein Maulkorb vorhanden bzw. bisher nicht daran gewöhnt."
+    }
+  },
+  "schemaVersion": 1,
+  "ratingScales": {
+    "effort": "1 = sehr leicht, 5 = anstrengend",
+    "dogFriendliness": "1 = ungeeignet, 5 = sehr hundefreundlich",
+    "weatherFlexibility": "1 = stark wetterabhängig, 5 = fast wetterunabhängig",
+    "costLevel": "1 = kostenlos/günstig, 2 = moderat, 3 = eher teuer"
+  },
+  "ideas": [
+    {
+      "id": 1,
+      "title": "Königssee → Salet → Obersee",
+      "area": "Schönau am Königssee",
+      "category": "See & Natur",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "5–7",
+      "effort": 2,
+      "dogFriendliness": 2,
+      "dog": "Ja, aber Schiff problematisch",
+      "dogNotes": "Auf den Königssee-Schiffen gilt Maulkorbpflicht. Ausnahme nur für sehr kleine Tiere in vollständig geschlossenem Transportbehälter.",
+      "bestWeather": "Trocken, gute Fernsicht, wenig Wind; Sonne oder lockere Bewölkung ideal.",
+      "okayWeather": "Bewölkt mit hoher Wolkendecke; einzelne kurze Schauer.",
+      "avoidWeather": "Dauerregen, dichter Nebel/tiefe Wolken, starker Wind.",
+      "weatherFlexibility": 2,
+      "costLevel": 3,
+      "booking": "Online-Ticket für Schiff sinnvoll",
+      "vibe": "Wow-Natur / romantisch / Fotospots",
+      "quickPitch": "Mit dem Elektroboot tief in den Königssee, dann zu Fuß zum spektakulären Obersee.",
+      "combineWith": [
+        "St. Bartholomä",
+        "Saletalm"
+      ],
+      "badWeatherAlternative": "Salzburg Altstadt oder Dokumentation Obersalzberg",
+      "specialNote": "Salet-Verkehr 2026 nur bis einschließlich 11.10. – genau euer letztes Reisewochenende.",
+      "source": "https://www.seenschifffahrt.de/de/koenigssee/",
+      "prices": {
+        "items": [
+          {
+            "label": "Schiff Seelände ⇄ Salet",
+            "each": 29.8,
+            "qty": 2
+          },
+          {
+            "label": "Malvi aufs Schiff",
+            "each": 5,
+            "qty": 1
+          },
+          {
+            "label": "Parken Königssee (Tag)",
+            "each": 9,
+            "qty": 1
+          }
+        ],
+        "note": "Maulkorbpflicht auf dem Schiff. Nur bis St. Bartholomä: 23,40 € pro Person"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Jennerbahn + Jenner",
+      "area": "Schönau am Königssee",
+      "category": "Berg & Aussicht",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "3–5",
+      "effort": 2,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Leinenpflicht im Bahnbereich; Hundeticket nötig. Maulkorb wird empfohlen, aber nicht generell vorgeschrieben.",
+      "bestWeather": "Klar oder leicht bewölkt, trocken, wenig Wind.",
+      "okayWeather": "Hohe Bewölkung, solange Gipfel und Königssee sichtbar bleiben.",
+      "avoidWeather": "Tiefe Wolken/Nebel, starker Wind, Dauerregen.",
+      "weatherFlexibility": 2,
+      "costLevel": 3,
+      "booking": "Tickets vorab optional",
+      "vibe": "Panorama / Berge / entspannt",
+      "quickPitch": "Bequem hochfahren und von oben auf Königssee und Watzmannwelt schauen.",
+      "combineWith": [
+        "Malerwinkl-Rundweg",
+        "Königssee-Ufer"
+      ],
+      "badWeatherAlternative": "Alte Saline oder Salzburg",
+      "specialNote": "Am 09.10.2026 sind von 10–15 Uhr Nationalpark-Ranger an der Jenneralm.",
+      "source": "https://www.jennerbahn.de/",
+      "prices": {
+        "items": [
+          {
+            "label": "Jennerbahn Berg & Tal",
+            "each": 47,
+            "qty": 2
+          },
+          {
+            "label": "Malvi (Hundeticket)",
+            "each": 12,
+            "qty": 1
+          },
+          {
+            "label": "Parken Königssee (Tag)",
+            "each": 9,
+            "qty": 1
+          }
+        ],
+        "note": "Im Webshop/mit Gästekarte 43 € pro Person"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Hintersee + Zauberwald",
+      "area": "Ramsau",
+      "category": "See & Spaziergang",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "2–4",
+      "effort": 2,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Sehr gut mit Hund; im Nationalpark bzw. sensiblen Bereichen anleinen.",
+      "bestWeather": "Trocken; Sonne, Wolken oder leichter Morgennebel sind alle reizvoll.",
+      "okayWeather": "Kühl, bewölkt, leichter Nieselregen.",
+      "avoidWeather": "Starker Dauerregen oder Sturm.",
+      "weatherFlexibility": 4,
+      "costLevel": 1,
+      "booking": "Nein",
+      "vibe": "Ruhig / romantisch / märchenhaft",
+      "quickPitch": "Smaragdgrüner Bergsee plus Waldweg zwischen Felsen und Gebirgsbach.",
+      "combineWith": [
+        "Ramsau St. Sebastian",
+        "Wartstein"
+      ],
+      "badWeatherAlternative": "Berchtesgaden Altstadt + Schloss",
+      "specialNote": "Sehr guter Programmpunkt auch bei nicht perfektem Bergwetter.",
+      "source": "https://www.berchtesgaden.de/pois/hintersee-bei-ramsau",
+      "prices": {
+        "items": [
+          {
+            "label": "Parken Hintersee (4 h)",
+            "each": 5,
+            "qty": 1
+          }
+        ],
+        "note": "Ganzer Tag parken: 9 €. Sonst kostenlos."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Ramsau + Kirche St. Sebastian",
+      "area": "Ramsau",
+      "category": "Ort & Fotospot",
+      "driveMinutesFromTivoli": "20–25",
+      "durationHours": "0.5–1.5",
+      "effort": 1,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Für Spaziergang im Ort problemlos.",
+      "bestWeather": "Trocken; klare Berge ideal für das klassische Fotomotiv.",
+      "okayWeather": "Bewölkt oder leichter Nieselregen.",
+      "avoidWeather": "Starker Regen.",
+      "weatherFlexibility": 4,
+      "costLevel": 1,
+      "booking": "Nein",
+      "vibe": "Postkartenmotiv / entspannt",
+      "quickPitch": "Das berühmte Ramsauer Motiv mit Kirche, Bach und Bergen.",
+      "combineWith": [
+        "Hintersee",
+        "Zauberwald",
+        "Wimbachklamm"
+      ],
+      "badWeatherAlternative": "Kann auch als kurzer Zwischenstopp bei wechselhaftem Wetter bleiben.",
+      "specialNote": "Ideal als kurzer Stopp statt eigenes Tagesprogramm.",
+      "source": "https://www.berchtesgaden.de/touren/ramsauer-malerweg",
+      "prices": {
+        "items": [
+          {
+            "label": "Parken im Ort",
+            "each": 3,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Kirche & Malerwinkel kostenlos."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Almbachklamm",
+      "area": "Marktschellenberg",
+      "category": "Klamm & Wandern",
+      "driveMinutesFromTivoli": "20–25",
+      "durationHours": "2–3",
+      "effort": 3,
+      "dogFriendliness": 4,
+      "dog": "Ja, wenn trittsicher",
+      "dogNotes": "Leinenpflicht; viele Stufen, Brücken und Stege. Nicht ideal für unsichere Hunde.",
+      "bestWeather": "Trocken und stabil, gerne kühl.",
+      "okayWeather": "Bewölkt, solange Wege trocken sind.",
+      "avoidWeather": "Regen, Gewitter, sehr nasse/rutschige Wege.",
+      "weatherFlexibility": 2,
+      "costLevel": 2,
+      "booking": "Nein",
+      "vibe": "Abenteuer / Wasser / Schlucht",
+      "quickPitch": "Spektakuläre Felsschlucht mit Stegen, Stufen und Wasserfällen.",
+      "combineWith": [
+        "Marktschellenberg",
+        "Salzburg"
+      ],
+      "badWeatherAlternative": "Salzbergwerk oder Salzburg",
+      "specialNote": "Starker Königssee-Ersatz, falls das Maulkorbthema auf dem Schiff nicht lösbar ist.",
+      "source": "https://www.berchtesgaden.de/pois/almbachklamm",
+      "prices": {
+        "items": [
+          {
+            "label": "Eintritt Almbachklamm",
+            "each": 9,
+            "qty": 2
+          },
+          {
+            "label": "Parken Kugelmühle",
+            "each": 4,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Hunde kostenlos. Mit Gästekarte 8 € pro Person"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Roßfeld-Panoramastraße",
+      "area": "Berchtesgaden / Obersalzberg",
+      "category": "Panoramastraße",
+      "driveMinutesFromTivoli": "30",
+      "durationHours": "2–3",
+      "effort": 1,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Sehr unkompliziert; Spaziergänge an Aussichtspunkten möglich.",
+      "bestWeather": "Klar, trocken, gute Fernsicht.",
+      "okayWeather": "Wechselnd bewölkt mit Sichtfenstern.",
+      "avoidWeather": "Nebel/tiefe Wolken, Schnee- oder Eisglätte.",
+      "weatherFlexibility": 2,
+      "costLevel": 2,
+      "booking": "Nein",
+      "vibe": "Roadtrip / Aussicht / wenig Anstrengung",
+      "quickPitch": "Mit dem Auto auf über 1.500 m und an mehreren Aussichtspunkten halten.",
+      "combineWith": [
+        "Obersalzberg",
+        "Berchtesgaden"
+      ],
+      "badWeatherAlternative": "Dokumentation Obersalzberg",
+      "specialNote": "Perfekt, wenn ihr spektakuläre Aussicht ohne große Wanderung wollt.",
+      "source": "https://www.berchtesgaden.de/pois/rossfeld-panoramastrasse",
+      "prices": {
+        "items": [
+          {
+            "label": "Maut pro Auto",
+            "each": 9.5,
+            "qty": 1
+          }
+        ],
+        "note": "Maut gilt fürs ganze Auto inkl. Mitfahrer."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Predigtstuhlbahn",
+      "area": "Bad Reichenhall",
+      "category": "Berg & Seilbahn",
+      "driveMinutesFromTivoli": "5–10",
+      "durationHours": "2–4",
+      "effort": 1,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Hundeticket erhältlich; vor Ort aktuelle Beförderungsbedingungen prüfen.",
+      "bestWeather": "Klar, trocken, wenig Wind.",
+      "okayWeather": "Hohe Bewölkung mit brauchbarer Sicht.",
+      "avoidWeather": "Dichter Nebel, Sturm, starke Niederschläge.",
+      "weatherFlexibility": 2,
+      "costLevel": 3,
+      "booking": "Meist nicht nötig",
+      "vibe": "Historisch / Bergpanorama / spontan",
+      "quickPitch": "Historische Seilbahn von 1928 direkt vor eurer Haustür.",
+      "combineWith": [
+        "Bad Reichenhall",
+        "Thumsee"
+      ],
+      "badWeatherAlternative": "RupertusTherme oder Alte Saline",
+      "specialNote": "Ideal als spontaner Halbtagespunkt bei guter Sicht.",
+      "source": "https://www.predigtstuhlbahn.de/",
+      "prices": {
+        "items": [
+          {
+            "label": "Predigtstuhlbahn Berg & Tal",
+            "each": 57,
+            "qty": 2
+          },
+          {
+            "label": "Malvi (Hundeticket)",
+            "each": 8,
+            "qty": 1
+          }
+        ],
+        "note": "Mit Gästekarte 2 € Rabatt pro Person"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Thumsee",
+      "area": "Bad Reichenhall",
+      "category": "See & Spaziergang",
+      "driveMinutesFromTivoli": "10–15",
+      "durationHours": "1–2",
+      "effort": 1,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Unkomplizierter Spaziergang; lokale Beschilderung beachten.",
+      "bestWeather": "Trocken, mild; Sonne schön, aber nicht nötig.",
+      "okayWeather": "Bewölkt, kühl, kurzer Nieselregen.",
+      "avoidWeather": "Starker Dauerregen.",
+      "weatherFlexibility": 4,
+      "costLevel": 1,
+      "booking": "Nein",
+      "vibe": "Entspannt / spontan / nah",
+      "quickPitch": "Kurzer, einfacher See-Rundweg direkt bei Bad Reichenhall.",
+      "combineWith": [
+        "Predigtstuhl",
+        "Bad Reichenhall"
+      ],
+      "badWeatherAlternative": "RupertusTherme",
+      "specialNote": "Sehr gut für Anreise- oder Abreisetag.",
+      "source": "https://www.bad-reichenhall.de/wandern/wanderwege/rund-um-den-thumsee",
+      "prices": {
+        "items": [],
+        "note": "Kostenlos – einfach hin und loslaufen."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Kehlsteinhaus",
+      "area": "Obersalzberg",
+      "category": "Geschichte & Aussicht",
+      "driveMinutesFromTivoli": "30–35",
+      "durationHours": "3–4",
+      "effort": 2,
+      "dogFriendliness": 2,
+      "dog": "Ja, aber Bus mit Maulkorb",
+      "dogNotes": "Im Kehlsteinbus ist für Hunde ein Maulkorb nötig.",
+      "bestWeather": "Klar, trocken, wenig Wind.",
+      "okayWeather": "Leicht bewölkt mit freier Bergsicht.",
+      "avoidWeather": "Nebel, Sturm, Schnee/Eis; Betrieb kann wetterbedingt eingeschränkt sein.",
+      "weatherFlexibility": 1,
+      "costLevel": 3,
+      "booking": "Zeitfenster/Busbetrieb vorab prüfen",
+      "vibe": "Geschichte / Hochgebirge / Panorama",
+      "quickPitch": "Historischer Ort auf 1.834 m mit gewaltiger Aussicht.",
+      "combineWith": [
+        "Dokumentation Obersalzberg",
+        "Roßfeld"
+      ],
+      "badWeatherAlternative": "Dokumentation Obersalzberg",
+      "specialNote": "Wegen Malvis fehlender Maulkorbgewöhnung aktuell eher zweite Wahl.",
+      "source": "https://www.berchtesgaden.de/kehlstein",
+      "prices": {
+        "items": [
+          {
+            "label": "Kehlsteinbus + Aufzug",
+            "each": 34.7,
+            "qty": 2
+          },
+          {
+            "label": "Parken Obersalzberg",
+            "each": 5,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Mit Bad Reichenhaller Gästekarte 31,80 € pro Person Hund nur mit Maulkorb."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Salzburg Altstadt",
+      "area": "Salzburg, Österreich",
+      "category": "Stadt & Kultur",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "4–7",
+      "effort": 2,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Zu Fuß gut machbar. Für Bus/Obus gelten strengere Regeln mit Leine und Maulkorb.",
+      "bestWeather": "Trocken oder wechselnd bewölkt.",
+      "okayWeather": "Leichter Regen – viele Cafés, Arkaden und Indoor-Optionen.",
+      "avoidWeather": "Eigentlich nur extremes Unwetter.",
+      "weatherFlexibility": 5,
+      "costLevel": 2,
+      "booking": "Nein für Stadtbummel",
+      "vibe": "Stadt / Essen / romantischer Abend",
+      "quickPitch": "Mirabell, Salzach, Getreidegasse, Dom und Altstadt als Kontrast zu den Naturtagen.",
+      "combineWith": [
+        "Hellbrunn",
+        "Marktschellenberg"
+      ],
+      "badWeatherAlternative": "Ist selbst eine der besten Schlechtwetter-Alternativen.",
+      "specialNote": "Für einen reinen Stadtbummel keine Anmeldung des Hundes nötig; Heimtierausweis bei Grenzübertritt mitführen.",
+      "source": "https://www.salzburg.info/de",
+      "prices": {
+        "items": [
+          {
+            "label": "Parkhaus Altstadt (Tag)",
+            "each": 22,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Stadtbummel kostenlos – Kaffee & Kuchen nicht eingerechnet ☕"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Wimbachklamm + Wimbachtal",
+      "area": "Ramsau",
+      "category": "Klamm & Wandern",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "2–4",
+      "effort": 3,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Leine; Holzstege und feuchte Passagen können rutschig sein.",
+      "bestWeather": "Trocken, stabil, eher kühl.",
+      "okayWeather": "Bewölkt bei trockenen Wegen.",
+      "avoidWeather": "Starker Regen, Gewitter, sehr nasse Bedingungen.",
+      "weatherFlexibility": 2,
+      "costLevel": 2,
+      "booking": "Nein",
+      "vibe": "Wild / Wasser / Wanderung",
+      "quickPitch": "Kurze, eindrucksvolle Klamm und anschließend optional weiter ins Wimbachtal.",
+      "combineWith": [
+        "Wimbachschloss",
+        "Ramsau"
+      ],
+      "badWeatherAlternative": "Schloss Berchtesgaden oder Salzburg",
+      "specialNote": "Gute Alternative zur Almbachklamm, wenn ihr ohnehin nach Ramsau fahrt.",
+      "source": "https://www.berchtesgaden.de/pois/wimbachklamm-ramsau",
+      "prices": {
+        "items": [
+          {
+            "label": "Eintritt Wimbachklamm",
+            "each": 4,
+            "qty": 2
+          },
+          {
+            "label": "Parken Wimbachbrücke",
+            "each": 5,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Wertmünze gibt’s nur am Automaten – Kleingeld mitnehmen."
+      }
+    },
+    {
+      "id": 12,
+      "title": "Wimbachschloss",
+      "area": "Ramsau / Wimbachtal",
+      "category": "Wanderziel & Einkehr",
+      "driveMinutesFromTivoli": "25–30 + Wanderung",
+      "durationHours": "3–4 gesamt",
+      "effort": 3,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Leine im Nationalpark; längerer Fußweg.",
+      "bestWeather": "Trocken, kühl bis mild.",
+      "okayWeather": "Bewölkt und trocken.",
+      "avoidWeather": "Dauerregen oder Gewitter.",
+      "weatherFlexibility": 3,
+      "costLevel": 2,
+      "booking": "Nein",
+      "vibe": "Wandern / Einkehr / ruhig",
+      "quickPitch": "Ehemaliges Jagdschloss als gemütliches Ziel nach der Wimbachklamm.",
+      "combineWith": [
+        "Wimbachklamm"
+      ],
+      "badWeatherAlternative": "Bad Reichenhall oder Berchtesgaden",
+      "specialNote": "2026 voraussichtlich noch bis 15.10. geöffnet – passt zu euren Reisedaten.",
+      "source": "https://www.berchtesgaden.de/gastro/das-wimbachschloss",
+      "prices": {
+        "items": [
+          {
+            "label": "Eintritt Wimbachklamm",
+            "each": 4,
+            "qty": 2
+          },
+          {
+            "label": "Parken Wimbachbrücke",
+            "each": 5,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Der Weg führt durch die Klamm. Einkehr im Schloss nicht eingerechnet."
+      }
+    },
+    {
+      "id": 13,
+      "title": "Wartstein über dem Hintersee",
+      "area": "Ramsau / Hintersee",
+      "category": "Aussichtspunkt",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "0.75–1.5",
+      "effort": 2,
+      "dogFriendliness": 4,
+      "dog": "Ja",
+      "dogNotes": "Kurzer Anstieg; bei nassen Wegen auf Trittsicherheit achten.",
+      "bestWeather": "Trocken, klare oder teilweise klare Sicht.",
+      "okayWeather": "Bewölkt, wenn die umliegenden Berge sichtbar sind.",
+      "avoidWeather": "Nasse/rutschige Wege, Nebel.",
+      "weatherFlexibility": 3,
+      "costLevel": 1,
+      "booking": "Nein",
+      "vibe": "Kurzer Wow-Spot / Aussicht",
+      "quickPitch": "Kurzer Zusatz-Aufstieg mit Blick über Hintersee und Bergwelt.",
+      "combineWith": [
+        "Hintersee",
+        "Zauberwald",
+        "Ramsau"
+      ],
+      "badWeatherAlternative": "Nur weglassen – Hintersee funktioniert trotzdem.",
+      "specialNote": "Perfekter Bonus statt eigenes Tagesziel.",
+      "source": "https://www.berchtesgaden.de/pois/der-wartstein",
+      "prices": {
+        "items": [],
+        "note": "Kostenlos – meist sowieso mit dem Hintersee kombiniert."
+      }
+    },
+    {
+      "id": 14,
+      "title": "Dokumentation Obersalzberg",
+      "area": "Obersalzberg",
+      "category": "Museum & Geschichte",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "2–3",
+      "effort": 1,
+      "dogFriendliness": 1,
+      "dog": "Nein im Ausstellungsbereich",
+      "dogNotes": "Für einen Besuch müsste Malvi anderweitig betreut werden.",
+      "bestWeather": "Perfekt bei Regen, Nebel oder schlechtem Bergwetter.",
+      "okayWeather": "Jedes Wetter.",
+      "avoidWeather": "Keines – Indoor-Ziel.",
+      "weatherFlexibility": 5,
+      "costLevel": 2,
+      "booking": "Bei starkem Andrang sinnvoll",
+      "vibe": "Geschichte / ernst / informativ",
+      "quickPitch": "Moderne historische Ausstellung mit Bunkeranlage am Obersalzberg.",
+      "combineWith": [
+        "Roßfeld",
+        "Kehlsteinhaus"
+      ],
+      "badWeatherAlternative": "Ist selbst eine Top-Schlechtwetteroption.",
+      "specialNote": "Sehr sinnvoll als Backup, wenn Bergsicht fehlt.",
+      "source": "https://www.berchtesgaden.de/pois/obersalzberg",
+      "prices": {
+        "items": [
+          {
+            "label": "Eintritt",
+            "each": 4.5,
+            "qty": 2
+          },
+          {
+            "label": "Parken Obersalzberg",
+            "each": 5,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Mit Gästekarte 3,50 € pro Person Malvi darf nicht mit rein."
+      }
+    },
+    {
+      "id": 15,
+      "title": "Carl-von-Linde-Weg",
+      "area": "Obersalzberg",
+      "category": "Leichte Wanderung",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "2–3",
+      "effort": 2,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Gut machbarer Höhenweg; Leine dort, wo erforderlich.",
+      "bestWeather": "Trocken; klare Sicht macht ihn deutlich schöner.",
+      "okayWeather": "Bewölkt mit Sichtfenstern.",
+      "avoidWeather": "Dauerregen oder dichter Nebel.",
+      "weatherFlexibility": 3,
+      "costLevel": 1,
+      "booking": "Nein",
+      "vibe": "Entspannt / Aussicht / Spazierwanderung",
+      "quickPitch": "Leichter Höhenweg mit wenig Steigung und vielen Blicken ins Berchtesgadener Land.",
+      "combineWith": [
+        "Obersalzberg",
+        "Roßfeld"
+      ],
+      "badWeatherAlternative": "Dokumentation Obersalzberg",
+      "specialNote": "Gute Wahl, wenn ihr Berge wollt, aber keine anstrengende Tour.",
+      "source": "https://www.berchtesgaden.de/touren/carl-von-linde-weg",
+      "prices": {
+        "items": [
+          {
+            "label": "Parken Obersalzberg",
+            "each": 5,
+            "qty": 1,
+            "approx": true
+          }
+        ],
+        "note": "Wandern kostenlos."
+      }
+    },
+    {
+      "id": 16,
+      "title": "Königliches Schloss + Altstadt Berchtesgaden",
+      "area": "Berchtesgaden",
+      "category": "Ort & Kultur",
+      "driveMinutesFromTivoli": "20–25",
+      "durationHours": "2–3",
+      "effort": 1,
+      "dogFriendliness": 3,
+      "dog": "Altstadt ja; Schloss separat prüfen",
+      "dogNotes": "Für Innenräume des Schlosses gelten eigene Regeln; Stadtbummel mit Hund problemlos.",
+      "bestWeather": "Trocken oder wechselnd bewölkt.",
+      "okayWeather": "Leichter Regen.",
+      "avoidWeather": "Nur extremes Unwetter.",
+      "weatherFlexibility": 5,
+      "costLevel": 2,
+      "booking": "Führung ggf. vorab prüfen",
+      "vibe": "Stadt / Kultur / Kaffee",
+      "quickPitch": "Historischer Ortskern plus Schloss – gut als entspannter halber Tag.",
+      "combineWith": [
+        "Enzianbrennerei Grassl",
+        "Obersalzberg"
+      ],
+      "badWeatherAlternative": "Ist selbst relativ wetterfest.",
+      "specialNote": "Gut für einen ruhigen Nachmittag oder als Lückenfüller.",
+      "source": "https://schloss-berchtesgaden.de/de/allgemeine-fuehrung/",
+      "prices": {
+        "items": [
+          {
+            "label": "Schlossführung",
+            "each": 15,
+            "qty": 2
+          }
+        ],
+        "note": "Altstadtbummel kostenlos."
+      }
+    },
+    {
+      "id": 17,
+      "title": "Enzianbrennerei Grassl",
+      "area": "Berchtesgaden",
+      "category": "Genuss & Tradition",
+      "driveMinutesFromTivoli": "25",
+      "durationHours": "1",
+      "effort": 1,
+      "dogFriendliness": 2,
+      "dog": "Vorher nachfragen",
+      "dogNotes": "Hunderegel für Innenbereiche vor Besuch direkt prüfen.",
+      "bestWeather": "Jedes Wetter; besonders gut bei Regen oder als Zwischenstopp.",
+      "okayWeather": "Jedes Wetter.",
+      "avoidWeather": "Keines.",
+      "weatherFlexibility": 5,
+      "costLevel": 1,
+      "booking": "Meist nicht nötig",
+      "vibe": "Regional / Genuss / kurz",
+      "quickPitch": "Kurzer Einblick in eine traditionelle Enzianbrennerei, gut als Zusatzpunkt.",
+      "combineWith": [
+        "Berchtesgaden Altstadt",
+        "Königssee"
+      ],
+      "badWeatherAlternative": "Ist selbst ein Schlechtwetter-Zusatz.",
+      "specialNote": "Eher Zusatz als Hauptprogrammpunkt.",
+      "source": "https://www.berchtesgaden.de/pois/berg-enzianbrennerei-grassl",
+      "prices": {
+        "items": [],
+        "note": "Rundgang & Verkostung kostenlos – nur was ihr kauft, kostet 😉"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Schloss Hellbrunn + Wasserspiele",
+      "area": "Salzburg",
+      "category": "Schloss & Park",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "2–3",
+      "effort": 1,
+      "dogFriendliness": 4,
+      "dog": "Teilweise",
+      "dogNotes": "Hund an der Leine im Park/Wasserspiele möglich; nicht ins Schloss.",
+      "bestWeather": "Trocken und mild.",
+      "okayWeather": "Bewölkt oder kurze Schauer.",
+      "avoidWeather": "Starker Dauerregen.",
+      "weatherFlexibility": 3,
+      "costLevel": 2,
+      "booking": "Tickets ggf. vorab",
+      "vibe": "Verspielt / Park / Salzburg",
+      "quickPitch": "Schlosspark und berühmte Wasserspiele als schöner Salzburg-Baustein.",
+      "combineWith": [
+        "Salzburg Altstadt"
+      ],
+      "badWeatherAlternative": "Salzburg Altstadt mit Indoor-Schwerpunkten",
+      "specialNote": "Passt gut vor oder nach einem halben Tag Salzburg.",
+      "source": "https://www.salzburg.info/de/sehenswertes/top10/schloss-hellbrunn",
+      "prices": {
+        "items": [
+          {
+            "label": "Schloss & Wasserspiele",
+            "each": 16.5,
+            "qty": 2
+          }
+        ],
+        "note": "Malvi darf in den Park, nicht ins Schloss."
+      }
+    },
+    {
+      "id": 19,
+      "title": "Salzburger Freilichtmuseum Großgmain",
+      "area": "Großgmain, Österreich",
+      "category": "Museum & Spaziergang",
+      "driveMinutesFromTivoli": "15–20",
+      "durationHours": "2–4",
+      "effort": 2,
+      "dogFriendliness": 5,
+      "dog": "Ja",
+      "dogNotes": "Hunde an der Leine erlaubt.",
+      "bestWeather": "Trocken, mild, bewölkt oder sonnig.",
+      "okayWeather": "Leichter Regen mit Regenjacke.",
+      "avoidWeather": "Starker Dauerregen oder Sturm.",
+      "weatherFlexibility": 4,
+      "costLevel": 2,
+      "booking": "Nein",
+      "vibe": "Entspannt / regional / viel draußen",
+      "quickPitch": "Großes Freigelände mit historischen Höfen und viel Platz zum Spazieren.",
+      "combineWith": [
+        "Salzburg",
+        "Bad Reichenhall"
+      ],
+      "badWeatherAlternative": "Alte Saline Bad Reichenhall",
+      "specialNote": "Sehr hundefreundlicher Programmpunkt nahe eurer Unterkunft.",
+      "source": "https://www.salzburg.info/de/sehenswertes/ausflugsziele/salzburger-freilichtmuseum",
+      "prices": {
+        "items": [
+          {
+            "label": "Eintritt",
+            "each": 15,
+            "qty": 2
+          }
+        ],
+        "note": "Hunde an der Leine willkommen."
+      }
+    },
+    {
+      "id": 20,
+      "title": "Untersberg / Untersbergbahn",
+      "area": "Grödig / Salzburg",
+      "category": "Berg & Seilbahn",
+      "driveMinutesFromTivoli": "25–30",
+      "durationHours": "3–4",
+      "effort": 2,
+      "dogFriendliness": 2,
+      "dog": "Ja, aber Maulkorb",
+      "dogNotes": "Für Hunde gelten in der Bahn Leinen- und Maulkorbpflicht.",
+      "bestWeather": "Klar, trocken, wenig Wind, gute Fernsicht.",
+      "okayWeather": "Leicht bewölkt mit freier Sicht.",
+      "avoidWeather": "Nebel, Sturm, starker Regen.",
+      "weatherFlexibility": 1,
+      "costLevel": 3,
+      "booking": "Vorab Betriebsstatus prüfen",
+      "vibe": "Bergpanorama / Salzburg von oben",
+      "quickPitch": "Mit der Bahn hoch über Salzburg und bei guter Sicht weit über die Alpen schauen.",
+      "combineWith": [
+        "Salzburg Altstadt",
+        "Hellbrunn"
+      ],
+      "badWeatherAlternative": "Salzburg Altstadt",
+      "specialNote": "Wegen Malvis fehlender Maulkorbgewöhnung derzeit eher niedriger priorisieren.",
+      "source": "https://www.salzburg.info/de/sehenswertes/ausflugsziele/untersbergbahn",
+      "prices": {
+        "items": [
+          {
+            "label": "Untersbergbahn Berg & Tal",
+            "each": 34,
+            "qty": 2
+          },
+          {
+            "label": "Malvi (Hundeticket)",
+            "each": 12,
+            "qty": 1
+          },
+          {
+            "label": "Parken Talstation",
+            "each": 4,
+            "qty": 1
+          }
+        ],
+        "note": "Leinen- und Maulkorbpflicht in der Bahn."
+      }
+    }
+  ],
+  "pricesInfo": "Preise 2026 laut Betreibern (Stand 29.09.2026) für 2 Personen + Malvi. „ca.“ = geschätzt."
+}
